@@ -1,7 +1,7 @@
 [project]
 name = "fishmlserv.git"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "Serving Machine Learning Model - using sklearn(KNeighborsClassifier) using FastApi, Fly.io"
 authors = [
     {name = "Jeonghoon2", email = "ukidd12@naver.com"},
 ]
