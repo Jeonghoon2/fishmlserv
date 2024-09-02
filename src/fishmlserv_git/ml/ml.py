@@ -14,7 +14,7 @@ def load_csv(path : str):
 
 
 def predict():
-    ...
+    pd.read_parquet("~/.fish_data/")
 
 def agg():
     ...
