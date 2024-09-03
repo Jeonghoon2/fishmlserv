@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.neighbors import KNeighborsClassifier
 
 # 읽어야 할 csv file이 있는지 없는 지 검사
 def load_csv(path : str):
@@ -14,7 +15,11 @@ def load_csv(path : str):
 
 
 def predict():
-    pd.read_parquet("~/.fish_data/")
+    df = pd.read_parquet("~/.fish_data/")
+    
+    x = df[["weight", "length"]]
+    y = df["target"]
+
 
 def agg():
     ...
