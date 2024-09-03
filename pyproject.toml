@@ -18,6 +18,7 @@ distribution = true
 
 [project.scripts]
 get_model_path = 'fishmlserv_git.ml.mission_c1:get_model_path'
+prediction = 'fishmlserv_git.ml.mission_c2:app'
 
 [tool.pdm.dev-dependencies]
 note = [
