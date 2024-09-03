@@ -1,17 +1,11 @@
 [project]
 name = "fishmlserv.git"
-version = "0.3.0"
+version = "0.5.0"
 description = "Serving Machine Learning Model - using sklearn(KNeighborsClassifier) using FastApi, Fly.io"
 authors = [
     {name = "Jeonghoon2", email = "ukidd12@naver.com"},
 ]
 dependencies = [
-    "fastapi>=0.112.2",
-    "uvicorn[standard]>=0.30.6",
-    "scikit-learn>=1.5.1",
-    "pandas>=2.2.2",
-    "pyarrow>=17.0.0",
-    "fastparquet>=2024.5.0",
 ]
 requires-python = ">=3.8"
 readme = "README.md"
@@ -19,7 +13,7 @@ license = {text = "MIT"}
 
 
 [tool.pdm]
-distribution = false
+distribution = true
 
 [tool.pdm.dev-dependencies]
 note = [
